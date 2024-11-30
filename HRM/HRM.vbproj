@@ -111,6 +111,10 @@
       <DependentUpon>AddEmployeeSex.vb</DependentUpon>
     </Compile>
     <Compile Include="AddEmployeeSex.vb" />
+    <Compile Include="AddEmployeeType.Designer.vb">
+      <DependentUpon>AddEmployeeType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddEmployeeType.vb" />
     <Compile Include="MDIEmployees.Designer.vb">
       <DependentUpon>MDIEmployees.vb</DependentUpon>
     </Compile>
@@ -163,6 +167,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AddEmployeeSex.resx">
       <DependentUpon>AddEmployeeSex.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEmployeeType.resx">
+      <DependentUpon>AddEmployeeType.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="MDIEmployees.resx">
