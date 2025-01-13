@@ -115,6 +115,10 @@
       <DependentUpon>AddEmployeeType.vb</DependentUpon>
     </Compile>
     <Compile Include="AddEmployeeType.vb" />
+    <Compile Include="AddGuardianRelationship.Designer.vb">
+      <DependentUpon>AddGuardianRelationship.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddGuardianRelationship.vb" />
     <Compile Include="MDIEmployees.Designer.vb">
       <DependentUpon>MDIEmployees.vb</DependentUpon>
     </Compile>
@@ -171,6 +175,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AddEmployeeType.resx">
       <DependentUpon>AddEmployeeType.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddGuardianRelationship.resx">
+      <DependentUpon>AddGuardianRelationship.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="MDIEmployees.resx">
